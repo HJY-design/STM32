@@ -112,22 +112,6 @@ IDE: Keil MDK v5
 配置Flash下载算法
 编译并下载到目标板
 
-📁 项目结构
-text
-STM32-Security-System/
-├── README.md           # 项目说明
-├── Firmware/           # 固件代码
-│   ├── Core/           # 核心逻辑
-│   ├── Drivers/        # 硬件驱动
-│   └── Libraries/      # 库文件
-├── Hardware/           # 硬件设计
-│   ├── Schematic/      # 电路原理图
-│   └── PCB/           # PCB设计文件
-├── Docs/              # 文档资料
-│   ├── Pinout.md      # 引脚分配
-│   └── Demo.md        # 演示说明
-└── Images/            # 项目图片
-
 🛠️ 故障排除
 常见问题
 电机不转动
