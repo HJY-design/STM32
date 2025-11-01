@@ -32,20 +32,20 @@
 📋 硬件连接
 引脚分配表
 STM32引脚	连接组件	功能
-PA0	舵机信号线	PWM控制 (TIM2_CH1)
-PA3	红外传感器DO	数字输入
-PA4	TB6612 AIN1	电机方向控制1
-PA5	TB6612 AIN2	电机方向控制2
-PA6	TB6612 PWMA	电机PWM速度控制 (TIM3_CH1)
-PA7	TB6612 STBY	电机驱动使能
-PB1	按键1	电机控制
-PB11	按键2	舵机控制
-PA1	LED1	警报状态指示
-PA2	LED2	备用指示
-PB8	OLED SCL	I2C时钟
-PB9	OLED SDA	I2C数据
-PA9	USART1 TX	串口发送
-PA10	USART1 RX	串口接收
+PA0	舵机信号线	PWM控制 (TIM2_CH1)；
+PA3	红外传感器DO	数字输入；
+PA4	TB6612 AIN1	电机方向控制1；
+PA5	TB6612 AIN2	电机方向控制2；
+PA6	TB6612 PWMA	电机PWM速度控制 (TIM3_CH1)；
+PA7	TB6612 STBY	电机驱动使能；
+PB1	按键1	电机控制；
+PB11	按键2	舵机控制；
+PA1	LED1	警报状态指示；
+PA2	LED2	备用指示；
+PB8	OLED SCL	I2C时钟；
+PB9	OLED SDA	I2C数据；
+PA9	USART1 TX	串口发送；
+PA10	USART1 RX	串口接收；
 💻 软件架构
 模块化设计
 text
